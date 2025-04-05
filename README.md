@@ -13,11 +13,11 @@ I connected a signal with a constant period and amplitude to the dry-in port to 
 1.Verify dry-in signal and buffered dry-out signal
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : Dry_Buffered_Bypass
-![Dry_In and Dry_Buffered_Bypass](./image/01_Dry in signal, Buffered Dry out signal.png)
+![Dry_In and Dry_Buffered_Bypass](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/01_Dry%20in%20signal%2C%20Buffered%20Dry%20out%20signal.png)
 2. Verify combined dry signal and wet signal
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : WDR out (blue signal + guitar signal)
-![Combined signal](./image/02_Dry in signal, Sum Wet and Dry signal.png)
+![Combined signal](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/02_Dry%20in%20signal%2C%20Sum%20Wet%20and%20Dry%20signal.png)
 
 ## Result
 It was confirmed that the dry signal and the wet signal were combined when connected in the following configuration.\
