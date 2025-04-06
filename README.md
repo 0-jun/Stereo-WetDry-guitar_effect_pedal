@@ -37,6 +37,6 @@ It was confirmed that the dry signal and the wet signal were combined when conne
 ![config1](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config1.png)
 * config2
 ![config2](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config2.png)
-# config3
+* config3
 ![config3](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config3.png)
 
