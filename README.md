@@ -24,13 +24,14 @@ I divided the pcb into three to put all parts in the pedal case.
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : Dry_Buffered_Bypass
 ![Dry_In and Dry_Buffered_Bypass](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/01_Dry_In_and_Dry_Buffered_Bypass.png)
-2. Verify Dry_In signal (triangle wave) and WRD_Out signal (guitar signal) combined
+2. Verify Dry_In signal (triangle wave) and WRD_Out signal (guitar signal) mixed
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : WRD_Out (blue signal + guitar signal)
-![Combined signal](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/02_Dry_In_and_WRD_Out.png)
+![Mixed signal](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/02_Dry_In_and_WRD_Out.png)
 
 ## Conclusion
-It was confirmed that the dry signal and the wet signal were combined when connected in the following configuration.\
+It was confirmed that the dry signal and the wet signal were mixed when connected in the following configuration.\
+Also, it can be used channel2 of U2(OPAMP) for Dry_Buffered_Byass2.
 
 ### configuration
 * config1
