@@ -2,42 +2,41 @@ Stereo Wet/Dry pedal
 =======================
 The effect pedal has the following functions.
 * Dry_In : Split dry signal to sum into each channel of the stereo wet signal
-* Dry_Buffered_Bypass : Output buffered dry signal for using input of another pedal
-* Wet_Right_In, Wet_Left_In : Stereo input for signals such as delay, reverb, chorus, etc
+* Dry_Buffered_Bypass (DBD) : Output buffered dry signal for using input of another pedal
+* Wet_Right_In (WR In), Wet_Left_In (WL In) : Stereo input for signals such as delay, reverb, chorus, etc
 * WRD_Out, WLD_Out : Output stereo of wet+dry signal (or you can use it as a mono using only one channel)
 * Four volume knob : Set the volume of two dry signals and two wet signals by knob
 
-## Verify signal
-I connected a signal with a constant period and amplitude to the dry-in port to check that the signals were combined.
+## PCB
+I divided the pcb into three to put all parts in the pedal case.
+1. power part
+![PCB-power part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-power%20part.jpg)
+![Artwork-power part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/Artwork-power%20PCB.png)
+2. register for half vdd inputa
+![PCB-half vdd for input part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-half%20vdd%20for%20input.jpg)
+![Artwork-half vdd for input part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/Artwork-half%20vdd%20for%20input.png)
+3. main part (opamp)
+![PCB-main part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-main%20part.jpg)
+![Artwork-main part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/Artwork-main%20part.png)
 
-1.Verify dry-in signal and buffered dry-out signal
+## Verify signal
+1.Verify Dry_In (triangle wave) signal and Dry_Buffered_Bypass
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : Dry_Buffered_Bypass
 ![Dry_In and Dry_Buffered_Bypass](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/01_Dry%20in%20signal%2C%20Buffered%20Dry%20out%20signal.png)
-2. Verify combined dry signal and wet signal
+2. Verify Dry_In signal (triangle wave) and WRD_Out signal (guitar signal) combined
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
- * yellow signal : WDR out (blue signal + guitar signal)
+ * yellow signal : WRD_Out (blue signal + guitar signal)
 ![Combined signal](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/02_Dry%20in%20signal%2C%20Sum%20Wet%20and%20Dry%20signal.png)
 
-## Result
+## Conclusion
 It was confirmed that the dry signal and the wet signal were combined when connected in the following configuration.\
-You can check the sound in the link below.
 
-## Additional
-It can be used in the following configurations.
-* wet/dry
- - Dry_In : input dry signal
- - Dry_Buffered_Bypass : connect to another pedal
- - Wet_Right_In : NC
- - Wet_Left_In : delay, reverb, chorus, etc
- - WRD_Out : only dry-out
- - WLD_Out : wet + dry signal
-* wet/dry stereo
- - Dry_in : input dry signal
- - Dry_Buffered_Bypass : connect to another pedal
- - Wet_Right_In : delay (or right of stereo delay)
- - Wet_Left_In : chorus (or left of stereo delay)
- - WRD_Out : wet right + dry signal
- - WLD_Out : wet left + dry signal
-
+### configuration
+* config1
+![config1](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config1.png)
+* config2
+![config2](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config2.png)
+# config3
+![config3](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config3.png)
 
