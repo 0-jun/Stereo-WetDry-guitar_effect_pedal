@@ -16,7 +16,7 @@ I divided the pcb into three to put all parts in the pedal case.
 ![PCB-half vdd for input part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-half%20vdd%20for%20input.jpg)
 ![Artwork-half vdd for input part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/Artwork-half%20vdd%20for%20input.png)
 3. main part (opamp)
-![PCB-main part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-main%20part.jpg)
+![PCB-main part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/PCB-main%20part%20.jpg)
 ![Artwork-main part](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/Artwork-main%20part.png)
 
 ## Verify signal
@@ -34,9 +34,9 @@ It was confirmed that the dry signal and the wet signal were combined when conne
 
 ### configuration
 * config1
-![config1](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config1.png)
+![config1](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config%201.png)
 * config2
-![config2](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config2.png)
+![config2](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config%202.png)
 * config3
-![config3](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config3.png)
+![config3](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config%203.png)
 
