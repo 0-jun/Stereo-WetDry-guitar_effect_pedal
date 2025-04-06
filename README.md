@@ -23,11 +23,11 @@ I divided the pcb into three to put all parts in the pedal case.
 1.Verify Dry_In (triangle wave) signal and Dry_Buffered_Bypass
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : Dry_Buffered_Bypass
-![Dry_In and Dry_Buffered_Bypass](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/01_Dry%20in%20signal%2C%20Buffered%20Dry%20out%20signal.png)
+![Dry_In and Dry_Buffered_Bypass](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/01_Dry_In_and_Dry_Buffered_Bypass.png)
 2. Verify Dry_In signal (triangle wave) and WRD_Out signal (guitar signal) combined
  * blue signal : Dry_In (STM32 DAC out (triangle wave))
  * yellow signal : WRD_Out (blue signal + guitar signal)
-![Combined signal](https://github.com/0-jun/Wet-Dry-Wet-pedal/blob/main/image/02_Dry%20in%20signal%2C%20Sum%20Wet%20and%20Dry%20signal.png)
+![Combined signal](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/02_Dry_In_and_WRD_Out.png)
 
 ## Conclusion
 It was confirmed that the dry signal and the wet signal were combined when connected in the following configuration.\
@@ -37,6 +37,6 @@ It was confirmed that the dry signal and the wet signal were combined when conne
 ![config1](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config1.png)
 * config2
 ![config2](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config2.png)
-# config3
+* config3
 ![config3](https://github.com/0-jun/Stereo-WetDry-guitar_effect_pedal/blob/main/image/config3.png)
 
